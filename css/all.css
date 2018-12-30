@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto; }
+  .wrap .header {
+    background: url("../img/Hero.png") no-repeat;
+    text-align: center; }
+    .wrap .header h1 {
+      font-size: 40px;
+      color: #FFF;
+      padding: 80px 0; }
+    .wrap .header .area {
+      background: #FFF;
+      margin-bottom: 100px;
+      padding: 10px;
+      opacity: 0.7;
+      border: 3px solid #FFF;
+      border-radius: 3px;
+      width: 40%; }
+    .wrap .header .popular {
+      max-width: 70%;
+      background: #FFF;
+      margin: 0 auto;
+      -webkit-box-shadow: 0 1px 3px 0;
+      box-shadow: 0 1px 3px 0;
+      border-radius: 5px; }
+      .wrap .header .popular h2 {
+        text-align: left;
+        padding: 10px; }
+      .wrap .header .popular button {
+        border-radius: 5px;
+        width: 100px;
+        color: #FFF;
+        margin: 10px;
+        padding: 2px; }
+      .wrap .header .popular .no1 {
+        background: #8A82CC; }
+      .wrap .header .popular .no2 {
+        background: #FFA782; }
+      .wrap .header .popular .no3 {
+        background: #F5D005; }
+      .wrap .header .popular .no4 {
+        background: #559AC8; }
+  .wrap .contant .areatitle {
+    text-align: center;
+    font-size: 40px;
+    color: #8A82CC; }
+  .wrap .contant .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .wrap .contant .list .area-Introduction {
+      -webkit-box-shadow: 0 1px 3px 0;
+      box-shadow: 0 1px 3px 0;
+      margin: 20px;
+      width: 320px;
+      position: relative; }
+      .wrap .contant .list .area-Introduction .area-img {
+        width: 320px;
+        height: 200px; }
+      .wrap .contant .list .area-Introduction h3 {
+        position: absolute;
+        left: 5px;
+        top: 160px;
+        font-size: 25px;
+        color: #FFF; }
+      .wrap .contant .list .area-Introduction h4 {
+        position: absolute;
+        right: 5px;
+        top: 165px;
+        color: #FFF; }
+      .wrap .contant .list .area-Introduction .Introduction {
+        margin: 10px; }
+        .wrap .contant .list .area-Introduction .Introduction div {
+          margin: 5px 0; }
+        .wrap .contant .list .area-Introduction .Introduction img {
+          padding-right: 5px; }
+        .wrap .contant .list .area-Introduction .Introduction .tag {
+          float: right; }
+        .wrap .contant .list .area-Introduction .Introduction .clearfix:after {
+          clear: both;
+          content: '';
+          display: table; }
+  .wrap .footer {
+    background: #559AC8;
+    text-align: center; }
+    .wrap .footer h3 {
+      color: #FFF;
+      padding: 10px; }
+    .wrap .footer p {
+      font-size: 14px;
+      color: #FFD366;
+      padding-bottom: 10px; }
